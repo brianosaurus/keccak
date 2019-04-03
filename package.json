@@ -1,48 +1,48 @@
 {
-  "name": "keccak",
-  "version": "2.0.0",
-  "description": "Keccak sponge function family",
-  "keywords": [
-    "sha3",
-    "sha-3",
-    "keccak",
-    "shake"
+  "_args": [
+    [
+      "keccak@brianosaurus",
+      "/Users/brian/work/keccak"
+    ]
   ],
+  "_from": "keccak@brianosaurus",
+  "_id": "keccak@brianosaurus",
+  "_inBundle": false,
+  "_location": "/keccak",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "keccak@brianosaurus",
+    "name": "keccak",
+    "escapedName": "keccak",
+    "rawSpec": "brianosaurus",
+    "saveSpec": null,
+    "fetchSpec": "brianosaurus"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/keccak/-/keccak-brianosaurus.tgz",
+  "_spec": "brianosaurus",
+  "_where": "/Users/brian/work/foo",
   "bugs": {
     "url": "https://github.com/cryptocoinjs/keccak/issues"
   },
-  "license": "MIT",
   "contributors": [
-    "Kirill Fomichev <fanatid@ya.ru> (https://github.com/fanatid)"
+    {
+      "name": "Kirill Fomichev",
+      "email": "fanatid@ya.ru",
+      "url": "https://github.com/fanatid"
+    }
   ],
-  "files": [
-    "lib",
-    "src",
-    "binding.gyp",
-    "bindings.js",
-    "index.js",
-    "js.js"
-  ],
-  "main": "./index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cryptocoinjs/keccak.git"
-  },
-  "scripts": {
-    "coverage": "nyc tape test/index.js",
-    "coverage-lcov": "npm run coverage && nyc report -r lcov",
-    "install": "npm run rebuild || echo \"Keccak bindings compilation fail. Pure JS implementation will be used.\"",
-    "lint": "standard",
-    "rebuild": "node-gyp rebuild",
-    "test": "npm run lint && npm run unit",
-    "unit": "tape test/index.js"
-  },
   "dependencies": {
     "bindings": "^1.2.1",
     "inherits": "^2.0.3",
     "nan": "^2.2.1",
     "safe-buffer": "^5.1.0"
   },
+  "description": "Keccak sponge function family",
   "devDependencies": {
     "browserify": "^14.1.0",
     "nyc": "^11.0.2",
@@ -53,8 +53,32 @@
   "engines": {
     "node": ">=6.0.0"
   },
+  "files": [
+    "lib",
+    "src",
+    "index.js"
+  ],
   "gypfile": true,
-  "browser": {
-    "./index.js": "./js.js"
-  }
+  "homepage": "https://github.com/brianosaurus/keccak#readme",
+  "keywords": [
+    "sha3",
+    "sha-3",
+    "keccak",
+    "shake"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "name": "keccak",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianosaurus/keccak.git"
+  },
+  "scripts": {
+    "coverage": "nyc tape test/index.js",
+    "coverage-lcov": "npm run coverage && nyc report -r lcov",
+    "lint": "standard",
+    "test": "npm run lint && npm run unit",
+    "unit": "tape test/index.js"
+  },
+  "version": "brianosaurus"
 }
