@@ -1,33 +1,8 @@
 {
-  "_args": [
-    [
-      "keccak@brianosaurus",
-      "/Users/brian/work/keccak"
-    ]
-  ],
-  "_from": "keccak@brianosaurus",
-  "_id": "keccak@brianosaurus",
-  "_inBundle": false,
-  "_location": "/keccak",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "keccak@brianosaurus",
-    "name": "keccak",
-    "escapedName": "keccak",
-    "rawSpec": "brianosaurus",
-    "saveSpec": null,
-    "fetchSpec": "brianosaurus"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/keccak/-/keccak-brianosaurus.tgz",
-  "_spec": "brianosaurus",
-  "_where": "/Users/brian/work/foo",
+  "name": "keccak",
+  "version": "brianosaurus",
   "bugs": {
-    "url": "https://github.com/cryptocoinjs/keccak/issues"
+    "url": "https://github.com/brianosaurus/keccak/issues"
   },
   "contributors": [
     {
@@ -58,14 +33,7 @@
     "src",
     "index.js"
   ],
-  "gypfile": true,
   "homepage": "https://github.com/brianosaurus/keccak#readme",
-  "keywords": [
-    "sha3",
-    "sha-3",
-    "keccak",
-    "shake"
-  ],
   "license": "MIT",
   "main": "./index.js",
   "name": "keccak",
