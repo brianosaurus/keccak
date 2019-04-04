@@ -1,6 +1,6 @@
 {
   "name": "keccak",
-  "version": "3.3.3333",
+  "version": "2.0.0-brianosaurus.0",
   "bugs": {
     "url": "https://github.com/brianosaurus/keccak/issues"
   },
@@ -12,7 +12,6 @@
     }
   ],
   "dependencies": {
-    "bindings": "^1.2.1",
     "inherits": "^2.0.3",
     "nan": "^2.2.1",
     "safe-buffer": "^5.1.0"
